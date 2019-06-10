@@ -1,0 +1,345 @@
+html
+  height: 100%
+
+body
+  font-family: 'Open Sans', sans-serif
+  -webkit-font-smoothing: antialiased
+  text-rendering: optimizeLegibility
+  margin: 0
+  padding: 0
+  background: #f6f7fb
+  height: 100%
+
+.el-container
+  height: 100%
+
+
+*
+  outline: none
+
+a
+  text-decoration: none
+
+.application
+  width: 100%
+
+.container
+  padding: 0
+
+.menu-app
+  padding: 0
+  &__list
+    padding: 15px
+
+.body-page
+  padding: 15px 0
+
+.filters
+  display: flex
+  .user-filter
+    width: 211px
+  .avatar
+    margin-right: 13px
+    float: left
+  &__form
+    display: flex
+    align-items: center
+    margin-right: 13px
+  &__input
+    border-radius: 3px
+    font-size: 15px
+    background: #ffffff
+    padding: 10px
+    color: #2196f3
+    border: 2px solid
+    width: 100%
+  &__btn
+    padding: 10px 31px
+    background: #2196f3
+    border: 1px solid #2196f3
+    color: #fff
+    font-weight: 600
+    margin-left: 5px
+    border-radius: 3px
+    margin-bottom: 0px
+
+.edit-value
+  display: -webkit-box
+  display: -ms-flexbox
+  display: flex
+  -webkit-box-pack: center
+  -ms-flex-pack: center
+  justify-content: center
+  left: 0
+  position: fixed
+  top: 0
+  width: 100%
+  height: 100%
+  z-index: 4
+  transform: translateY(100%)
+  transition: all 0.3s cubic-bezier(0.25, 0.8, 0.5, 1)
+  &.active
+    transform: translateY(0%)
+  &__card
+    width: 100%
+    overflow-y: auto
+  &__cont
+    max-width: 1000px
+    margin: 2% auto
+    width: 90%
+
+// theme styles customs
+
+.wrp-custom
+  padding: 0
+  .body-page
+    padding: 25px
+
+.no-height
+  height: auto!important
+
+  // pionero
+
+.pioneroinfo
+  &__card
+    background: #fff
+    border-radius: 5px
+    color: #5b5e6d
+    padding: 20px
+    box-shadow: 0px 0px 10px rgba(91, 94, 109, 0.12941176470588237)
+    b
+      text-align: left
+      display: inline-block
+  &__imgWrap
+    border-radius: 50%
+    overflow: hidden
+    width: 100px
+    height: 100px
+    margin: 0 auto
+  &__img
+    width: 100px
+  &__title
+    margin: 12px
+
+
+.tableList
+  padding: 0
+  li
+    width: 100%
+    box-sizing: border-box
+    display: inline-block
+    list-style-type: none
+    font-size: 13px
+    div
+      float: left
+      border: 1px solid #cdcc
+      padding: 2% 1%
+      margin: -1px 0px -1px -1px
+    i
+      vertical-align: middle
+      margin-right: 4px
+    .w20
+      width: 20%
+    .w30
+      width: 30%
+    .w50
+      width: 50%
+    .w60
+      width: 60%
+    .w100
+      width: 100%
+.padi23
+  padding: 20px
+
+.hiden
+  display: none
+
+.cuponRes
+  text-align: center
+  color: #777
+  font-size: 15px
+  &__title
+    font-size: 20px
+  &__cupon
+    margin-top: 12px
+    span
+      border: 2px solid #1abb9c
+      font-size: 24px
+      padding: 5px 10px
+      display: table
+      border-radius: 10px
+      font-weight: 500
+      text-transform: uppercase
+      margin: 5px auto 10px
+
+.red-alert
+  color: #c62929
+  font-size: 20px
+  text-align: center
+
+.green-alert
+  color: #2f7d32
+  font-size: 20px
+  text-align: center
+
+.centerIcon
+  margin: 4px auto
+  padding-top: 12px
+  display: table
+  font-size: 72px!important
+
+.preloader
+  width: 100%
+  height: 100%
+  position: fixed
+  top: 0
+  left: 0
+  z-index: 9999
+  display: flex
+  align-content: center
+  justify-content: center
+  background: rgba(0, 0, 0, 0.65)
+
+.inputUpper input
+  text-transform: capitalize
+
+.mayus
+  text-transform: uppercase
+  div
+    font-size: 14px
+
+
+.productImgEdit
+  height: 200px
+  border-radius: 50%
+  overflow: hidden
+  width: 200px
+  display: flex
+  align-items: flex-end
+  justify-content: center
+  border: 2px solid #1975d3
+  margin: 0 auto
+
+input[disabled]
+  cursor: default
+  -webkit-filter: grayscale(100%)
+  filter: grayscale(100%)
+  opacity: .8
+
+
+.valorPk
+  background: #ff9101
+  padding: 5px 13px
+  border-radius: 5px
+  font-weight: 600
+  color: #fff
+  display: inline-block
+.detailsCupons
+  text-align: center
+  font-size: 16px
+  h4
+    margin-top: 12px
+    color: #1976d2
+  span
+    display: block
+    font-weight: bold
+    color: #269868
+    &.destacado
+      font-size: 18px
+
+.el-main
+  background-color: #fbfbfb
+  color: #333
+  text-align: inherit!important
+  line-height: inherit!important
+
+.row_bottles
+  .el-col
+    margin-bottom: 24px
+
+
+
+// menu
+
+.el-header
+  position: relative
+
+.el-aside
+  background: #fff
+  border-right: 1px solid #ededed
+  box-shadow: 2px 0px 10px rgba(0, 0, 0, 0.09019607843137255);
+  z-index: 9;
+
+.logo_pp
+  position: absolute
+  left: 5px
+  width: 140px
+  top: 5px
+
+.el-menu
+  border: none
+
+.imgCont
+  border-radius: 50%;
+  overflow: hidden;
+  display: inline-block;
+  width: 80px;
+  height: 80px;
+  margin-bottom: 10px
+  img
+    width: 80px
+  &--topbar
+    margin-right: 12px
+    width: 35px
+    height: 35px
+    img
+      width: 35px
+
+
+.profile
+  text-align: center
+  margin-top: 12px
+  color: #676767
+  .userTag
+    font-size: 13px;
+    margin-top: 3px;
+
+// top bar
+
+.topBar
+  .menuTop
+    display: flex
+    justify-content: flex-end
+    .item
+      display: flex
+      align-items: center
+      margin: 0 12px
+      .alarma
+        font-size: 24px;
+        display: inherit;
+
+
+// card bottle
+.card_bottle
+  .title
+    text-align: center
+    display: block
+    font-size: 18px
+  .icono
+    width: 100px
+    margin: 20px auto
+    display: block
+
+
+
+
+// vista de mis movimientos
+
+.tablaMovimientos
+  .i__red
+    color: red
+  .i__green
+    color: green
+
+.w20
+  width: 40%
