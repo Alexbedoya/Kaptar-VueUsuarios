@@ -1,0 +1,22 @@
+{
+    "endPoint": {
+        "prod": "https://kaptar-ba09e.appspot.com/api/",
+        "local": "http://localhost:3000/api/"
+    },
+    "loginUser": "Usuarios/login",
+    "cupon": "Cupons/consultar",
+    "cuponCompra": "Cupons/{idCupon}/comprar",
+    "cuponUsuario": "CuponUsuarios/{id}",
+    "categoria": "Categorias",
+    "consultarUsuario": "Usuarios/{id}/consultar-indicadores",
+    "parametrosProducto": "ParametroProductos",
+    "dominios": "Dominios",
+    "consultarBalance": "Usuarios/{id}/consultar-balance",
+    "transaccionRvms": "TransaccionRvms/{id}",
+    "productos": "Productos",
+    "crearUsuario": "Usuarios/crear-usuario",
+    "usuariosAdministrar": "Usuarios/administrar",
+    "actualizarFoto": "Usuarios/{id}/guardar-imagen-perfil",
+    "anuncios": "Anuncios",
+    "cupones": "Cupons"
+}

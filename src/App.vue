@@ -14,6 +14,7 @@
 </script>
 
 <style lang="sass">
+  @import './static/css/index.css'
   @import './assets/sass/login.sass'
   @import './assets/sass/main.sass'
 </style>
