@@ -34,7 +34,8 @@
 						<el-form-item label="Genero">
 							<el-select v-model="form_perfil.genero">
 								<el-option label="Hombre" value="Hombre"></el-option>
-      					<el-option label="Mujer" value="Mujer"></el-option>
+								<el-option label="Mujer" value="Mujer"></el-option>
+								<el-option label="Personalizado" value="Presonalizado"></el-option>
 							</el-select>
 						</el-form-item>
 					</el-col>
@@ -126,7 +127,6 @@
 </style>
 
 <script>
-import Axios from 'axios';
 import DatePicker from 'vue2-datepicker'
 
 export default {

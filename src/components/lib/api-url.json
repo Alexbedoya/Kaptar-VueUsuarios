@@ -1,7 +1,0 @@
-{
-    "endPoint": {
-        "prod": "https://kaptar-ba09e.appspot.com/api",
-        "local": ""
-    },
-    "cupon": "/Cupons"
-}

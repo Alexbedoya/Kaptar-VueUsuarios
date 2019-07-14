@@ -3,7 +3,7 @@ import Router from 'vue-router'
 
 // Componentes del login
 import User from '@/components/User'
-import Login from '@/components/login/login'
+import Login from '@/components/login/Login'
 import Register from '@/components/login/Register'
 
 // Componentes del panel
